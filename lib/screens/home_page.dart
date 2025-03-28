@@ -319,7 +319,7 @@ class EditableTextWidgetState extends State<EditableTextWidget> {
                 right: 0,
                 top: 0,
                 child: IconButton(
-                  icon: const Icon(Icons.delete, size: 20, color: Colors.red),
+                  icon: const Icon(Icons.delete, size: 18, color: Colors.red),
                   onPressed: () => widget.onDelete(
                       widget.id), // Trigger the delete function with id
                 ),
